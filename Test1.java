@@ -7,6 +7,7 @@ public class Test1 {
     String s3 = "java";
     if (s2.equals(s3)) {
       System.out.println("S2 = S3");
+      System.out.pritnln("S2 == s3");
     } 
     if (s2.equalsIgnoreCase(s3))
       System.out.println("s2 = s3 (case isn't considered)");
